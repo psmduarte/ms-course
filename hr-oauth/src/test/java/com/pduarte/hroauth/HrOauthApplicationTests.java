@@ -1,4 +1,4 @@
-package com.pduarte.hr;
+package com.pduarte.hroauth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
