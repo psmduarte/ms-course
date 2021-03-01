@@ -1,10 +1,10 @@
-package com.pduarte.hroauth;
+package com.pduarte.hruser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HrOauthApplicationTests {
+class HrUserApplicationTests {
 
 	@Test
 	void contextLoads() {

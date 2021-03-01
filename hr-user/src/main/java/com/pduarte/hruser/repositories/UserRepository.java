@@ -1,4 +1,4 @@
-package com.pduarte.hruser.resources;
+package com.pduarte.hruser.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

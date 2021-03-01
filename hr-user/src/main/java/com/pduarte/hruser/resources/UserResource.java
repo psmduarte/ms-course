@@ -1,4 +1,4 @@
-package com.pduarte.hruser.repositories;
+package com.pduarte.hruser.resources;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.pduarte.hruser.entities.User;
-import com.pduarte.hruser.resources.UserRepository;
+import com.pduarte.hruser.repositories.UserRepository;
 
 
 
@@ -36,7 +36,7 @@ public class UserResource {
 	}
 	
 	@GetMapping(value = "/search")
-	public ResponseEntity<User> findById(@RequestParam String email){
+	public ResponseEntity<User> findByEmail(@RequestParam String email){
 		
 		User user = userRepository.findByEmail(email);	
 		return ResponseEntity.ok(user);
