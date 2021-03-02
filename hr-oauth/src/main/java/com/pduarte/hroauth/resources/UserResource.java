@@ -28,8 +28,4 @@ public class UserResource {
 		}
 	}
 	
-	@GetMapping()
-	public void teste() {
-		System.out.println("Teste");
-	}
 }
